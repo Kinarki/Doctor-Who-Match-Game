@@ -1,0 +1,93 @@
+body{
+
+	margin: 0;
+	background-color: #001A34;
+	background-image: url("background.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
+}
+
+#logo {
+	height: 100px;
+	width: 125px;
+	position: absolute;
+	top: 45px;
+	left: 50px;
+}
+
+header {
+	border: solid black 1px;
+	position: relative;
+	height: 200px;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+
+}
+
+#title {
+	position: absolute;
+	font-family: helvetica;
+	top: 60px;
+	right: 1000px;
+	font-size: 40px;
+}
+
+#reset {
+	position: absolute;
+	padding-top: 50px;
+	bottom: 20px;
+	right: 800px;
+	border-radius: 5px;
+	color: white;
+	height: 100px;
+	background-image: url("cardback.jpg");
+	background-size: 100% 100%;
+}
+
+#sidebar {
+	color: white;
+	background-color: rgba(0, 33, 98, 0.6);
+	width: 200px;
+	height: 900px;
+	float: left;
+
+}
+#game {
+	width:900px;
+	background-image: url('angels.gif');
+	background-size: 100% 105%;
+	float:left;
+
+}
+
+.card {
+	float: left;
+	height: 250px;
+	width: 150px;	
+
+}
+
+.front {
+	height: 250px;
+	width: 150px;
+	position: absolute;
+}
+
+.back {
+	height: 250px;
+	width: 150px;
+	position: absolute;
+}
+
+/*.card:active {
+	transform: rotateY(180deg);
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}*/
+
+.card-hidden {
+	display: none;
+}
